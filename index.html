@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> 
+    <title>HERA</title>
+    <script src="https://kit.fontawesome.com/1a425518fe.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/hera.js"></script>
+    
+</head>
+<body>
+    <div class="banner">
+        <div class="mobile-menu">
+            <div class="mobile-list">
+                <div class="mobile-click">
+                    <b>메이크업</b>
+                        <svg width="20px" height="20px" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.9629 44.1831L37.8416 22.3045C39.0131 21.1329 40.9126 21.1329 42.0842 22.3045L63.9629 44.1831" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M15.9629 60.1831L37.8416 38.3045C39.0131 37.1329 40.9126 37.1329 42.0842 38.3045L63.9629 60.1831" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                </div>
+                
+                
+                <div class="mobile-txt">
+                    <div class="fusion">
+                        <div class="m-sub">
+                            <a href="#none"><p>페이스</p></a>
+                            <svg class="m-sub-icon" width="40" height="40" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M40 66C54.3594 66 66 54.3594 66 40C66 25.6406 54.3594 14 40 14C25.6406 14 14 25.6406 14 40C14 46.5596 16.4291 52.5518 20.4369 57.1261L16 66L40 66Z" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M51.8711 40H27.8711" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M39.8711 52L39.8711 28" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                              
+                            
+                        </div>
+                        <div class="m-sub-list">
+                            <a href="#none">제품전체</a>
+                            <a href="#none">파운데이션</a>
+                            <a href="#none">쿠션</a>
+                            <a href="#none">베이스</a>
+                          </div>
+                    </div>
+                    <div class="fusion">
+                        <div class="m-sub">
+                            <a href="#none"><p>립</p></a>
+                            <svg class="m-sub-icon" width="40" height="40" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M40 66C54.3594 66 66 54.3594 66 40C66 25.6406 54.3594 14 40 14C25.6406 14 14 25.6406 14 40C14 46.5596 16.4291 52.5518 20.4369 57.1261L16 66L40 66Z" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M51.8711 40H27.8711" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M39.8711 52L39.8711 28" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                            
+                        </div>
+                        <div class="m-sub-list">
+                            <a href="#none">제품전체</a>
+                            <a href="#none">립스틱</a>
+                            <a href="#none">틴트</a>
+                            <a href="#none">립밤/글로즈</a>
+                          </div>
+                    </div>
+                    <div class="fusion">
+                        <div class="m-sub">
+                            <a href="#none"><p>아이</p></a>
+                            <svg class="m-sub-icon" width="40" height="40" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M40 66C54.3594 66 66 54.3594 66 40C66 25.6406 54.3594 14 40 14C25.6406 14 14 25.6406 14 40C14 46.5596 16.4291 52.5518 20.4369 57.1261L16 66L40 66Z" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M51.8711 40H27.8711" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M39.8711 52L39.8711 28" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                            
+                        </div> 
+                        <div class="m-sub-list">
+                            <a href="#none">제품전체</a>
+                            <a href="#none">아이섀도</a>
+                            <a href="#none">마스카라</a>
+                            <a href="#none">아이브로우</a>
+                          </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="mobile-list">
+                <div class="mobile-click">
+                    <b>스킨케어</b>
+                        <svg width="20px" height="20px" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.9629 44.1831L37.8416 22.3045C39.0131 21.1329 40.9126 21.1329 42.0842 22.3045L63.9629 44.1831" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M15.9629 60.1831L37.8416 38.3045C39.0131 37.1329 40.9126 37.1329 42.0842 38.3045L63.9629 60.1831" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                </div>
+                <div class="mobile-txt">
+                    <div class="fusion">
+                        <div class="m-sub">
+                            <a href="#none"><p>제품라인</p></a>
+                            <svg width="40" height="40" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M40 66C54.3594 66 66 54.3594 66 40C66 25.6406 54.3594 14 40 14C25.6406 14 14 25.6406 14 40C14 46.5596 16.4291 52.5518 20.4369 57.1261L16 66L40 66Z" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M51.8711 40H27.8711" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M39.8711 52L39.8711 28" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                            
+                        </div>
+                        <div class="m-sub-list">
+                            <a href="#none">제품전체</a>
+                            <a href="#none">클렌징</a>
+                            <a href="#none">시그니아</a>
+                            <a href="#none">에이지 어웨이</a>
+                          </div>
+                    </div>
+                    <div class="fusion">
+                        <div class="m-sub">
+                            <a href="#none"><p>피부고민</p></a>
+                            <svg width="40" height="40" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M40 66C54.3594 66 66 54.3594 66 40C66 25.6406 54.3594 14 40 14C25.6406 14 14 25.6406 14 40C14 46.5596 16.4291 52.5518 20.4369 57.1261L16 66L40 66Z" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M51.8711 40H27.8711" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M39.8711 52L39.8711 28" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                              
+                            
+                        </div>
+                        <div class="m-sub-list">
+                            <a href="#none">제품전체</a>
+                            <a href="#none">수분/보습</a>
+                            <a href="#none">브라이트닝</a>
+                            <a href="#none">피부보호/차단</a>
+                          </div>
+                    </div>
+                    <div class="fusion">
+                        <div class="m-sub">
+                            <a href="#none"><p>제품유형</p></a>
+                            <svg width="40" height="40" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M40 66C54.3594 66 66 54.3594 66 40C66 25.6406 54.3594 14 40 14C25.6406 14 14 25.6406 14 40C14 46.5596 16.4291 52.5518 20.4369 57.1261L16 66L40 66Z" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M51.8711 40H27.8711" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M39.8711 52L39.8711 28" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                            
+                        </div>
+                        <div class="m-sub-list">
+                            <a href="#none">제품전체</a>
+                            <a href="#none">클렌져</a>
+                            <a href="#none">토너/워터</a>
+                            <a href="#none">에멀전</a>
+                          </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="mobile-list">
+                <div class="mobile-click">
+                    <b>프레그런스</b>
+                        <svg width="20px" height="20px" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.9629 44.1831L37.8416 22.3045C39.0131 21.1329 40.9126 21.1329 42.0842 22.3045L63.9629 44.1831" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M15.9629 60.1831L37.8416 38.3045C39.0131 37.1329 40.9126 37.1329 42.0842 38.3045L63.9629 60.1831" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                </div>
+                <div class="mobile-txt">
+                    <div class="fusion">
+                        <div class="m-sub">
+                            <a href="#none"><p>제품라인</p></a>
+                            <svg width="40" height="40" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M40 66C54.3594 66 66 54.3594 66 40C66 25.6406 54.3594 14 40 14C25.6406 14 14 25.6406 14 40C14 46.5596 16.4291 52.5518 20.4369 57.1261L16 66L40 66Z" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M51.8711 40H27.8711" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M39.8711 52L39.8711 28" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                            
+                        </div>
+                        <div class="m-sub-list">
+                            <a href="#none">제품전체</a>
+                            <a href="#none">지일/벨벳나이트</a>
+                            
+                          </div>
+                    </div>
+                    <div class="fusion">
+                        <div class="m-sub">
+                            <a href="#none"><p>제품유형</p></a>
+                            <svg width="40" height="40" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M40 66C54.3594 66 66 54.3594 66 40C66 25.6406 54.3594 14 40 14C25.6406 14 14 25.6406 14 40C14 46.5596 16.4291 52.5518 20.4369 57.1261L16 66L40 66Z" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M51.8711 40H27.8711" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M39.8711 52L39.8711 28" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                            
+                        </div>
+                        <div class="m-sub-list">
+                            <a href="#none">제품전체</a>
+                            <a href="#none">향수</a>
+                            <a href="#none">바디</a>
+                          </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 434 80" style="enable-background:new 0 0 434 80;" xml:space="preserve" class="logo-img svg replaced-svg" preserveAspectRatio="xMinYMin" focusable="false">
+                    <style type="text/css">
+                        .st0{fill:#13130A;}
+                    </style>
+                    <g>
+                        <path class="st0" d="M415.31,79.28h16.59L399.15,1.3l-15.96,0.02c0.94,2.68-0.7,7.88-2.46,12.42l-26.31,65.54h9.24l11.61-28.46   h28.46L415.31,79.28z M377.92,44.3l11.58-28.4l11.57,28.4H377.92z"></path>
+                        <path class="st0" d="M147.89,42.51h33.47v-5.59h-33.47V6.89h37.87V1.3L129.9,1.32c0,0,1.68,2.95,1.68,11.1V79.3h55.23v-5.58h-38.93   V42.51z"></path>
+                        <path class="st0" d="M54.34,36.92H19.89V1.32H1.9c0,0,1.68,2.95,1.68,11.1V79.3h16.31V43.18h34.45V79.3h16.31V1.32H54.34V36.92z"></path>
+                        <path class="st0" d="M282.01,40.81c3.46-1.1,7.02-2.74,10.39-5.25c12.05-9,9.04-24.34,1.06-29.42c-5.14-3.27-10.22-4.84-20.3-4.84   h-31.92c0,0,1.68,2.95,1.68,11.1v66.88h16.35V42.84h4.31c0.24,0,0.52,0,0.83,0.01c4.85,0.32,7.5,1.75,11.63,7.09l20.29,29.34h16.61   c0,0-21.68-30.13-23.48-32.46C287.92,44.81,285.47,41.85,282.01,40.81 M263.01,37.33h-3.74V6.75h3.52c5.76,0,14.18,0.07,18.5,6.51   c4.11,6.13,2.74,13.29-0.29,17.38C277.25,35.72,273.05,37.33,263.01,37.33"></path>
+                    </g>
+                    </svg>
+            </div>
+            <div class="header-child">
+                <div class="menu"> 
+                    <li data-alt="tab1">메이크업</li>
+                    <li data-alt="tab2">스킨케어</li>
+                    <li data-alt="tab3">프레그런스</li>
+                </div>
+                
+                <div class="icon">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-regular fa-user"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+            
+            
+        </div>
+        <div class="sub-menu">
+            <a id="tab1" href="#none" class="sub-menu-detail">
+                <div class="sub-menu-box">
+                    <div class="sub-menu-box-head">
+                        <b>페이스</b>
+                        
+                    </div>
+                    <div class="sub-menu-box-list">
+                        <p>제품전체</p>
+                        <p>파운데이션</p>
+                        <p>쿠션</p>
+                        <p>베이스</p>
+                    </div>
+                </div>
+                <div class="sub-menu-box">
+                    <div class="sub-menu-box-head">
+                        <b>립</b>
+                    </div>
+                    <div class="sub-menu-box-list">
+                        <p>제품전체</p>
+                        <p>립스틱</p>
+                        <p>틴트</p>
+                        <p>립밤/글로즈</p>
+                    </div>
+                </div>
+                <div class="sub-menu-box">
+                    <div class="sub-menu-box-head">
+                        <b>아이</b>
+                    </div>
+                    <div class="sub-menu-box-list">
+                        <p>제품전체</p>
+                        <p>아이섀도</p>
+                        <p>마스카라</p>
+                        <p>아이브로우</p>
+                    </div>
+                </div>
+                <div class="sub-img">
+                    <div class="sub-img-detail">
+                        <img src="./img/sub1.jpg" alt="">
+                        <p>BLACK CUSHION</p>
+                    </div>
+                    <div class="sub-img-detail">
+                        <img src="./img/sub2.jpg" alt="">
+                        <p>SENSUAL POWDER MATTE LIQUID</p>
+                    </div>
+                    
+                </div>
+            </a>
+            <!-- ----tab2---- -->
+            <a id="tab2" href="#none" class="sub-menu-detail">
+                <div class="sub-menu-box">
+                    <div class="sub-menu-box-head">
+                        <b>제품라인</b>
+                        
+                    </div>
+                    <div class="sub-menu-box-list">
+                        <p>제품전체</p>
+                        <p>클렌징</p>
+                        <p>시그니아</p>
+                        <p>에이지 어웨이</p>
+                    </div>
+                </div>
+                <div class="sub-menu-box">
+                    <div class="sub-menu-box-head">
+                        <b>피부고민</b>
+                    </div>
+                    <div class="sub-menu-box-list">
+                        <p>제품전체</p>
+                        <p>수분/보습</p>
+                        <p>브라이트닝</p>
+                        <p>피부보호/차단</p>
+                    </div>
+                </div>
+                <div class="sub-menu-box">
+                    <div class="sub-menu-box-head">
+                        <b>제품유형</b>
+                    </div>
+                    <div class="sub-menu-box-list">
+                        <p>제품전체</p>
+                        <p>클랜저</p>
+                        <p>토너/워터</p>
+                        <p>에멀전</p>
+                    </div>
+                </div>
+                <div class="sub-img">
+                    <div class="sub-img-detail">
+                        <img src="./img/sub3.jpg" alt="">
+                        <p>SIGNIA CORE LIFTING SERUM</p>
+                    </div>
+                    <div class="sub-img-detail">
+                        <img src="./img/sub4.jpg" alt="">
+                        <p>UV PROTECTOR MULTI-DEFENSE</p>
+                    </div>
+                    
+                </div>
+            </a>
+            <!-- ----tab3---- -->
+            <a id="tab3" href="#none" class="sub-menu-detail">
+                <div class="sub-menu-box">
+                    <div class="sub-menu-box-head">
+                        <b>제품라인</b>
+                        
+                    </div>
+                    <div class="sub-menu-box-list">
+                        <p>제품전체</p>
+                        <p>지일/벨벳나이트</p>
+                    </div>
+                </div>
+                <div class="sub-menu-box">
+                    <div class="sub-menu-box-head">
+                        <b>제품유형</b>
+                    </div>
+                    <div class="sub-menu-box-list">
+                        <p>제품전체</p>
+                        <p>향수</p>
+                        <p>바디</p>
+                        
+                    </div>
+                </div>
+                
+                <div class="sub-img">
+                    <div class="sub-img-detail">
+                        <img src="./img/sub5.jpg" alt="">
+                        <p>SIGNIA CORE LIFTING SERUM</p>
+                    </div>
+                    <div class="sub-img-detail">
+                        <img src="./img/sub6.jpg" alt="">
+                        <p>UV PROTECTOR MULTI-DEFENSE</p>
+                    </div>
+                    
+                </div>
+            </a>
+        </div>
+        <div class="video">
+            <video src="./video/banner_mp4.mp4" autoplay loop muted></video>
+        </div>
+        
+    </div>
+    <!-- -----swiper1---- -->
+
+    <div class="sec1">
+        <div class="swiper fristSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide sw1"><img src="./img/sec1-1.jpg" alt="배너1">
+                    <div class="swiper-position">
+                        <div class="swiper-txt">
+                            <h3>헤라 애프터아워스 컬렉션</h3>
+                            <h6>반짝이는 소재와 디테일한 컬러감의 홀리데이 무드</h6>
+                        </div>
+                        <div class="direct-box">
+                            <a href="#none">바로가기</a>
+                        </div>
+                    </div>
+                </div>
+              <div class="swiper-slide sw1"><img src="./img/sec1-2.jpg" alt="배너2">
+                <div class="swiper-position">
+                    <div id="hoon" class="swiper-txt">
+                        <h3>윤곽을 타고 흐르는 수분 빛 글로우</h3>
+                        <h6>NEW 글로우 래스팅 파운데이션</h6>
+                    </div>
+                    <div class="direct-box">
+                        <a id="hoonb" href="#none">바로가기</a>
+                    </div>
+                </div>
+                </div>
+              <div class="swiper-slide sw1"><img src="./img/sec1-3.jpg" alt="배너3">
+                <div class="swiper-position">
+                    <div class="swiper-txt">
+                        <h3>HOW FAR CAN YOU GO</h3>
+                        <h6>헤라 NEW 브랜드 캠페인</h6>
+                    </div>
+                    <div class="direct-box">
+                        <a href="#none">바로가기</a>
+                    </div>
+                </div>
+                </div>
+              <div class="swiper-slide sw1"><img src="./img/sec1-4.jpg" alt="배너4">
+                <div class="swiper-position">
+                    <div id="hoon" class="swiper-txt">
+                        <h3>헤라만의 정교한 컬러 디테일</h3>
+                        <h6>센슈얼 립 라인</h6>
+                    </div>
+                    <div class="direct-box">
+                        <a id="hoonb" href="#none">바로가기</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="swiper-scrollbar">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -------sec2------ -->
+    <div class="sec2">
+        <div class="sec2-box">
+            <img src="./img/sec2t-1.jpg" alt="섹션2 left">
+            <div class="sec2-txt">
+                <a href="#none">자세히 보기</a>
+            </div>
+        </div>
+        <div class="sec2-box">
+            <img src="./img/sec2t-2.jpg" alt="센셕2 right">
+            <div class="sec2-txt">
+                <a href="#none">자세히 보기</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------sec3------------ -->
+    <div class="sec3">
+        <div class="sec3-box">
+            <div class="sec3-box1">
+                <div class="sec3-box-img">
+                    <img src="./img/sec2b-1.jpg" alt="">
+                </div>
+                 <div class="sec3-txt-box">
+                <div class="sec3-txt">
+                    <h4>NEW & ISSUE</h4>
+                    <h6>속부터 건강한 피부를 위한 럭셔리 집중 케어 앰플</h6>
+                </div>
+                <div class="sec3-direct-box">
+                    <a href="#none">바로가기</a>
+                </div>
+            </div>
+            </div>
+            <div class="sec3-box1">
+                <div class="sec3-box-img">
+                    <img src="./img/sec2b-2.png" alt="">
+                </div>
+                <div class="sec3-txt-box">
+                    <div class="sec3-txt">
+                        <h4>HERA'S PICK</h4>
+                        <h6>나르시스의 생명력으로 피부의 힘을 세워주는 집중 탄력 세럼</h6>
+                    </div>
+                    <div class="sec3-direct-box">
+                        <a href="#none">바로가기</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sec3-box1">
+                <div class="sec3-box-img">
+                    <img src="./img/sec2b-3.jpg" alt="">
+                </div>
+                <div class="sec3-txt-box">
+                    <div class="sec3-txt">
+                        <h4>BEST SELLER</h4>
+                        <h6>무너짐 없이 지속되는 생기 톤업 선크림</h6>
+                    </div>
+                    <div class="sec3-direct-box">
+                        <a href="#none">바로가기</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- ----------video2-------------------- -->
+    <div class="sec4">
+        <div class="sec4-video">
+            <video src="./video/sec4_video_mp4.mp4" autoplay loop muted></video>
+        </div>
+        <div class="sec4-txt">
+            <p>처음 바른 그래도 매끈한 실키 스킨<br>#a매끈한 피부결 #24H 지속<br>
+            얇고 고운 텍스처베이스 명가 헤라와 함께 내 피부 같이 고급스럽게 마무리 되는 실키 스킨을 경험해 보세요.</p>
+        </div>
+    </div>
+
+    <!-- --------------aos--------------------- -->
+    <div class="sec5">
+
+        <div class="aos-box">
+            <div class="sec5-1" data-aos="fade-right"><img src="./img/sec3-1.jpg" alt="aos이미지1"></div>
+            <div class="sec5-2" data-aos="zoom-in"><img src="./img/sec3-2.jpg" alt="aos이미지2"></div>
+            <div class="sec5-3" data-aos="fade-left"><img src="./img/sec3-3.jpg" alt="aos이미지3"></div>
+            <div class="sec5-4" data-aos="flip-up"><img src="./img/sec3-4.jpg" alt="aos이미지4"></div>
+
+            <div class="aos-box-txt">
+                <span>나만의 것을 당당하게 드러내는 서울리스타</span>
+                <p>서울리스타의 아름다움, 그 중심엔 ‘나다움’이 있습니다.
+                    자신에게 어울리는 표현을 누구보다 잘 이해하고 스스로를 탐구하는데
+                    열정을 아끼지 않으며 지나치게 꾸미지 않고도
+                    자신만의 취향과 방식으로 매력적인 스타일을 완성해 나갑니다.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="sec5-tablet">
+        <div class="tablet-img">
+            <div class="t-img1">
+                <img src="./img/sec3-1.jpg" alt="">
+            </div>
+            <div class="t-img2">
+                <img src="./img/sec3-2.jpg" alt="">
+                <div class="t-img3">
+                    
+                    <img src="./img/sec3-3.jpg" alt="">
+                </div>
+            </div>
+            
+        </div>
+        <div class="tablet-txt">
+            <span>나만의 것을 당당하게 드러내는 서울리스타</span>
+                <p>서울리스타의 아름다움, 그 중심엔 ‘나다움’이 있습니다.
+                    자신에게 어울리는 표현을 누구보다 잘 이해하고 스스로를 탐구하는데
+                    열정을 아끼지 않으며 지나치게 꾸미지 않고도
+                    자신만의 취향과 방식으로 매력적인 스타일을 완성해 나갑니다.</p>
+        </div>
+    </div>
+
+    <!-- --------------sec6-------------------------- -->
+    <div class="sec6">
+        <div class="sec6-box">
+            <div data-aos="fade-right">
+                <div class="sec6-txt">
+                    <b>PRODUCT</b>
+                    <P>나다움으로 완성하는 아름다움을 위해<br>
+                        하나로 연결 된 일련의 루틴<p>
+                    <p>본연의 아름다움을 발산하는 베이스부터<br> 
+                        취향에 따라 다양한 무드로 표현되는 컬러에 이르기까지<br>
+                        헤라의 메이크업은 정교화된 디테일로 가장 나다운 매력을 완성해 줍니다.
+                    </P>
+                        <a href="#none">바로가기</a>
+                </div>
+            </div>
+            
+            <div data-aos="fade-left">
+                <div class="sec6-img">
+                    <img src="./img/sec4.jpg" alt="sec6이미지">
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <!-- ------------swiper2--------------- -->
+    <!-- <div class="sec7">
+        <div class="sec7-head">
+            <h6>립</h6>
+        </div>
+        <div class="swiper secondSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide sw2">
+                <img src="./img/sec5-1.png" alt="">
+                <div class="sw2-txt">
+                    <b>센슈얼 파우더 매트 립스틱</b>
+                    <p>얇고 편안하게 피팅되고 부드럽게 발리는 쉬어 벨벳 립스틱</p>
+                    <a class="sw2-txt-2" href="#none">바로가기</a>
+                </div>
+            </div>
+              <div class="swiper-slide sw2">
+                    <img src="./img/sec5-2.png" alt="">
+                    <div class="sw2-txt">
+                        <b>루즈 홀릭 쉬어 매트</b>
+                        <p>얇게 피팅 되어 12시간 동안 변함 없는 슬림 쉬어 매트 립스틱</p>
+                        <a href="#none">바로가기</a>
+                    </div>
+                </div>
+              <div class="swiper-slide sw2">
+                <img src="./img/sec5-3.png" alt="">
+                <div class="sw2-txt">
+                    <b>루즈 홀릭</b>
+                    <p>글라이딩 되는 밀도 있는 컬러와 볼륨감을 살려주는 뉴 클래식 립스틱</p>
+                    <a href="#none">바로가기</a>
+                </div>
+            </div>
+              <div class="swiper-slide sw2"><img src="./img/sec5-4.jpg" alt="">
+                <div class="sw2-txt">
+                    <b>센슈얼 누드 밤</b>
+                    <p>다음날 까지 편안하고 자유로운 맑은 컬러 수분 립밤</p>
+                    <a class="sw2-txt-2" href="#none">바로가기</a>
+                </div>
+            </div>
+              <div class="swiper-slide sw2">
+                <img src="./img/sec5-5.jpg" alt="">
+                <div class="sw2-txt">
+                    <b>루즈 홀릭 매트</b>
+                    <p>부드럽게 밀착되어 편안함과 밀도있는 컬러를 선사하는 클래식 립스틱</p>
+                    <a href="#none">바로가기</a>
+                </div>
+            </div>
+              <div class="swiper-slide sw2">
+                <img src="./img/sec5-6.jpg" alt="">
+                <div class="sw2-txt">
+                    <b>센슈얼 파우더 매트 립스틱</b>
+                    <p>얇고 편안하게 피팅되고 부드럽게 발리는 쉬어 벨벳 립스틱</p>
+                    <a class="sw2-txt-2" href="#none">바로가기</a>
+                </div>
+            </div>
+            </div>
+            
+          </div>
+    </div> -->
+
+    <!-- --------------swiper3----------------- -->
+    <!-- <div class="sec8">
+        <div class="sec8-head"><h6>바디</h6></div>
+        <div class="sec8-container">
+            <div class="sec8-box">
+                <img src="./img/sec6-1.png" alt="">
+                <div class="sec8-txt">
+                    <b>지일 블루밍 퍼퓸드 샤워젤</b>
+                    <p>팜므파탈의 매혹을 담은 신비로운 향의 퍼퓸드 샤워젤</p>
+                </div>
+                
+            </div>
+            <div class="sec8-box">
+                <img src="./img/sec6-2.png" alt="">
+                <div class="sec8-txt">
+                    <b>지일 블루밍 퍼퓸드 샤워젤</b>
+                    <p>팜므파탈의 매혹을 담은 신비로운 향의 퍼퓸드 샤워젤</p>
+                </div>
+            </div>
+            <div class="sec8-box">
+                <img src="./img/sec6-3.png" alt="">
+                <div class="sec8-txt">
+                    <b>지일 블루밍 퍼퓸드 샤워젤</b>
+                    <p>팜므파탈의 매혹을 담은 신비로운 향의 퍼퓸드 샤워젤</p>
+                </div>
+            </div>
+            <div class="sec8-box">
+                <img src="./img/sec6-4.png" alt="">
+                <div class="sec8-txt">
+                    <b>지일 블루밍 퍼퓸드 샤워젤</b>
+                    <p>팜므파탈의 매혹을 담은 신비로운 향의 퍼퓸드 샤워젤</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+   <div class="aos_product">
+    <div class="frist_aos">
+        <div class="frist_box">
+            <div class="frist_txt">
+                <div data-aos="flip-up"><h6>PICK YOUR COLOR</h6>
+                    <p>역동적인 서울 속 섬세하게 물들어 있는<br> 아름다움에 대한 10가지 해석
+                        세련된 컬러와<br> 고급스러운 글로우의 조화로 완성된<br> 루즈 클래시를 만나보세요.</p>
+                </div>
+                 
+                
+            </div>
+            <div class="frist_aos_sectione">
+                <div data-aos="fade-up"data-aos-delay="100"><a href="#none"><img src="./img/frist_aos_1.png" alt=""></a></div>
+                <div data-aos="fade-up"data-aos-delay="200"><a href="#none"><img src="./img/frist_aos_2.png" alt=""></a></div>
+                <div data-aos="fade-up"data-aos-delay="300"><a href="#none"><img src="./img/frist_aos_3.png" alt=""></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="second_aos">
+        <div class="second_box">
+            <div class="second_aos_sectione">
+                <div data-aos="fade-up"data-aos-delay="100"><a href="#none"><img src="./img/second_aos_1.png" alt=""></a></div>
+                <div data-aos="fade-up"data-aos-delay="200"><a href="#none"><img src="./img/second_aos_2.png" alt=""></a></div>
+                <div data-aos="fade-up"data-aos-delay="300"><a href="#none"><img src="./img/second_aos_3.png" alt=""></a></div>
+            </div>
+            <div class="second_txt">
+                <div data-aos="flip-up"><h6>FIND YOUR COLOR</h6>
+                    <p>헤라의 12년 쿠션 노하우에<br> 맑고 순도 높은 리파이닝 피그먼트를 함유해<br> 텁텁함 없이 더 맑아진 컬러를<br> 만나보세요.</p>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-- -------------swiper--------------- -->
+   <div class="swiper_section">
+    <div class="sw2_head">
+        <h6>Instagram</h6>
+        <i>#hera_official</i>
+    </div>
+    <div class="swiper secondSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide sw_2"><img src="./img/insta_1.jpg" alt="">
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>   
+        </div>
+          <div class="swiper-slide sw_2"><img src="./img/insta_2.jpg" alt="">
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>  
+        </div>
+          <div class="swiper-slide sw_2"><img src="./img/insta_3.jpg" alt="">
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>  
+        </div>
+          <div class="swiper-slide sw_2"><img src="./img/insta_4.jpg" alt="">
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>  
+        </div>
+          <div class="swiper-slide sw_2"><img src="./img/insta_5.jpg" alt="">
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>  
+        </div>
+          <div class="swiper-slide sw_2"><img src="./img/insta_6.jpg" alt="">
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>  
+        </div>
+          <div class="swiper-slide sw_2"><img src="./img/insta_7.jpg" alt="">
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>  
+        </div>
+          <div class="swiper-slide sw_2"><img src="./img/insta_8.jpg" alt="">
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>  
+        </div>
+          <div class="swiper-slide sw_2"><img src="./img/insta_9.jpg" alt="">
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>  
+        </div>
+          <div class="swiper-slide sw_2"><img src="./img/insta_10.jpg" alt="">
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>  
+        </div>
+          <div class="swiper-slide sw_2"><img src="./img/insta_11.jpg" alt="">
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>  
+        </div>
+          <div class="swiper-slide sw_2"><img src="./img/insta_12.jpg" alt="">
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>  
+        </div>
+          <div class="swiper-slide sw_2"><img src="./img/insta_13.jpg" alt="">
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>  
+        </div>
+          <div class="swiper-slide sw_2"><img src="./img/insta_14.jpg" alt="">
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>  
+        </div>
+          <div class="swiper-slide sw_2"><img src="./img/insta_15.jpg" alt="">
+        
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>  
+        </div>
+          <div class="swiper-slide sw_2"><img src="./img/insta_16.jpg" alt="">
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>  
+        </div>
+          <div class="swiper-slide sw_2"><img src="./img/insta_17.jpg" alt="">
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>  
+        </div>
+          <div class="swiper-slide sw_2"><img src="./img/insta_18.jpg" alt="">
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>  
+        </div>
+          <div class="swiper-slide sw_2"><img src="./img/insta_19.jpg" alt="">
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>  
+        </div>
+          <div class="swiper-slide sw_2"><img src="./img/insta_20.jpg" alt="">
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>  
+        </div>
+          <div class="swiper-slide sw_2"><img src="./img/insta_21.jpg" alt="">
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>  
+        </div>
+          <div class="swiper-slide sw_2"><img src="./img/insta_22.jpg" alt="">
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>  
+        </div>
+          <div class="swiper-slide sw_2"><img src="./img/insta_23.jpg" alt="">
+            <div class="sw_2_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-message"></i>
+            </div>  
+        </div>
+        </div>
+        
+      </div>
+   </div>
+   
+
+    <!-- ------------------footer---------------- -->
+    <div class="footer">
+        <div class="footer-body">
+            <div class="f-1">
+                <a href="#none"><p>서비스 이용약관</p></a><hr>
+                <a href="#none"><p>UGC 이용약관</p></a><hr>
+                <a href="#none"><p>개인정보처리방침</p></a><hr>
+                <a href="#none"><p>영상정보처리방침</p></a><hr>
+                <a href="#none"><p>뷰티포인트</p></a><hr>
+                <a href="#none"><p>사이트 맵</p></a>
+                
+            </div>
+            <div class="f-2">
+                <p>고객상담팀(수신자요금부담)080-023-5454 (상담시간 월~금: AM:09:00 ~ PM:06:00)</p>
+            </div>
+            <div class="korea-mark">
+                <p>© AMOREPACIFIC CORPORATION. All rights reserved.</p>
+                <div class="k-mark">
+                    <img src="./img/mark.svg" alt="">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="mobile-footer">
+        <div class="mf1">
+            <div class="mf1-1">
+                <p>© AMOREPACIFIC CORPORATION. All rights reserved.</p>
+            <svg width="20px" height="20px" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.9629 44.1831L37.8416 22.3045C39.0131 21.1329 40.9126 21.1329 42.0842 22.3045L63.9629 44.1831" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M15.9629 60.1831L37.8416 38.3045C39.0131 37.1329 40.9126 37.1329 42.0842 38.3045L63.9629 60.1831" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+            
+            
+        </div>
+        <div class="mf2">
+            <div class="mf2-1">
+                <a href="#none"><p>서비스 이용약관</p></a><hr>
+            <a href="#none"><p>UGC 이용약관</p></a><hr>
+            <a href="#none"><p>개인정보처리방침</p></a><hr>
+            <a href="#none"><p>영상정보처리방침</p></a><hr>
+            <a href="#none"><p>뷰티포인트</p></a><hr>
+            <a href="#none"><p>사이트 맵</p></a>
+            </div>
+            <div class="mf2-2">
+                <p>고객상담팀(수신자요금부담)080-023-5454<br> (상담시간 월~금: AM:09:00 ~ PM:06:00)</p>
+            </div>
+        </div>
+        
+    </div>
+
+
+</body>
+</html>
